@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='py-4 px-8 flex justify-between items-center '>
         <div className='cursor-pointer'>
-            <a href="https://www.mercedes-amg.com/en/home.html"><img className='h-14' src="../assets/logo.png" /></a>
+            <a href="https://www.mercedes-amg.com/en/home.html"><img className='h-14' src="./assets/logo.png" /></a>
         </div>
         <div className='hidden md:block'>
             <ul className='flex'>
