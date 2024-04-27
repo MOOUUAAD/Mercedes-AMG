@@ -22,13 +22,13 @@ const Navbar = () => {
             </ul>
         </div>
         <div>
-            <a href="https://id.mercedes-benz.com/ciam/auth/login" className='p-3  font-semibold rounded-full cursor-pointer duration-200 hover:bg-black hover:text-white'>LOGIN</a>
-            <button onClick={handleNav} className='md:hidden p-3 font-semibold rounded-full cursor-pointer duration-200 hover:bg-black hover:text-white'>MENU</button>
+            <a href="https://login.mercedes-benz.com/" className='p-2  font-semibold rounded-full cursor-pointer duration-200 hover:bg-black hover:text-white'>LOGIN</a>
+            <button onClick={handleNav} className='md:hidden p-2 font-semibold rounded-full cursor-pointer duration-200 hover:bg-black hover:text-white'>MENU</button>
         </div>
 
 
         <div className={nav?'absolute top-0 right-0 h-full w-1/2 bg-white z-10':'fixed right-[100%]'}>
-            <div className='m-8 flex justify-end'>
+            <div className='m-9 flex justify-end'>
             <TfiClose onClick={handleNav} size={25} className='fill-black p-1 rounded-full duration-200 cursor-pointer hover:bg-gray-300' />
             </div>
             <h1 className='text-black text-lg font-bold ml-6 mb-4'>OUR VEHICLES</h1>
